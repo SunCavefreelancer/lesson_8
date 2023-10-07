@@ -186,12 +186,13 @@ body {
 }
 
 
-/* ============================================= */
+
+
+/* =====================block-latest-projects======================== */
 .block-latest-projects {
 	max-width: 1220px;
 	padding: 100px 0px;
 	margin: 0 auto;
-	border: 1px solid #3C4242;
 }
 .block-latest-projects-text {
 	text-align: center;
@@ -232,19 +233,37 @@ body {
 	line-height: 146.187%; /* 26.314px */
 	margin-bottom: 47;
 }
-.block-cards {
-	max-width: 1220px;
-	margin: 0 auto;
+
+.row-a {
+	margin-bottom: 58px;
 }
 .block-card {
 	display: inline-block;
 	vertical-align: top;
+}
+.block-card-img-first {
+	background-image: url(img-2/Photo01.png);
+	background-repeat: no-repeat;
+	width: 384px;
+	height: 501px;
+	margin-right: 28px;
 	margin-bottom: 24px;
 }
-.block-card-img img{
-	max-width: 100%;
+.block-card-img-two {
+	background-image: url(img-2/Photo02.png);
+	background-repeat: no-repeat;
+	width: 384px;
+	height: 501px;
+	margin-bottom: 24px;
+	margin-right: 28px;
 }
-
+.block-card-img-tree {
+	background-image: url(img-2/Photo03.png);
+	background-repeat: no-repeat;
+	width: 384px;
+	height: 501px;
+	margin-bottom: 24px;
+}
 .block-card-title {
 	color: #37393F;
 	font-family: 'Poppins';
@@ -253,30 +272,179 @@ body {
 	line-height: 127%; /* 25.4px */
 	margin-bottom: 10px;
 }
-.block-card-first {
-	background-image: url(img-2/Photo01.png);
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-size: 656px 985px;
 
-	margin-right: 34px;
-}
-.block-card-two {
-	margin-right: 34px;
-}
 .block-card-data {
 	color: #7D7D7D;
 	font-family: 'Inter';
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 146.187%; /* 20.466px */
-	background-image: url(img-2/Group\ 22.svg) no-repeat;
-}
-.block-card-img-two {
-	background-image: url(img-2/Photo02.png);
+	background-image: url(img-2/logo.svg);
 	background-repeat: no-repeat;
+	background-size: 22px 22px;
+	background-position: 0 0;
+	padding-left: 25.5px;
 }
-.block-card-img-tree {
-	background-image: url(img-2/Photo03.png);
+ 
+.block-card-img-four {
+	background-image: url(img-2/Photo04.png);
 	background-repeat: no-repeat;
-} 
+	width: 384px;
+	height: 501px;
+	margin-right: 28px;
+	margin-bottom: 24px;
+}
+.block-card-img-five {
+	background-image: url(img-2/Photo05.png);
+	background-repeat: no-repeat;
+	width: 384px;
+	height: 501px;
+	margin-bottom: 24px;
+	margin-right: 28px;
+}
+.block-card-img-six {
+	background-image: url(img-2/Photo06.png);
+	background-repeat: no-repeat;
+	width: 384px;
+	height: 501px;
+	margin-bottom: 24px;
+}
+
+
+
+/* ======================= maket 4 Welcome Whitecollar ============================ */
+.block-welcome-whitecollar {
+	max-width: 622px;
+	margin: 0 auto;
+	padding: 0px 0px 80px 0px;
+}
+.block-welcome-whitecollar span {
+	width: 12px;
+	height: 12px;
+	background-color: #40DDB6;
+	display: inline-block;
+	margin-right: 6px;
+}
+.block-welcome-whitecollar h5 {
+	color: #37393F;
+	font-family: 'Inter';
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 22px;
+	margin-bottom: 16px;
+}
+.block-welcome-whitecollar h2 {
+	width: 414px;
+	color: #37393F;
+	font-family: 'Poppins';
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 121%; /* 48.4px */
+	margin-bottom: 20px;
+}
+
+.block-welcome-whitecollar-text {
+	width: 673px;
+	color: #7D7D7D;
+	font-family: 'Inter';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 146.187%; /* 26.314px */
+	margin-bottom: 15px;
+}
+.block-welcome-whitecollar-sub-text {
+	width: 673px;
+	color: #7D7D7D;
+	font-family: 'Inter';
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 146.187%; /* 26.314px */
+	margin-bottom: 20px;
+}
+.block-welcome-list {
+	margin-bottom: 43px;
+}
+.block-welcome-link {
+	color: #37393F;
+	font-family: 'Poppins';
+	font-size: 20px;
+	font-weight: 400;
+	line-height: normal;
+	background-image: url(img-2/Vector01.svg);
+	background-repeat: no-repeat;
+	background-size: 27px 27px;
+	/*background-position: 0 3px;*/
+	padding-left: 36px;
+}
+.link-one {
+	margin-bottom: 23px;
+}
+
+/* ---cards --- */
+.block-welcome-cards {
+	margin-bottom: 37px;
+	display: inline-block;
+	font-size: 0;
+}
+.block-welcome-card {
+
+}
+.block-welcome-card-first {
+	padding: 31px 32px 32px 32px;
+	border: 1px solid #E3E3E3;
+	display: inline-block;
+	margin-right: 21px;
+	width: 295px;
+
+}
+
+.block-welcome-card-two {
+	padding: 31px 32px 32px 32px;
+	border: 1px solid #E3E3E3;
+	display: inline-block;
+	width: 296.512px;
+
+}
+
+.block-welcome-card-title {
+	color: #37393F;
+	font-family: 'Poppins';
+	font-size: 20px;
+	font-weight: 600;
+	background-image: url(img-2/Icon01.svg);
+	background-repeat: no-repeat;
+	background-size: 39px 38px;
+	padding-left: 58px;
+	min-height: 42px;
+}
+
+.block-welcome-card-sub-title {
+	color: #7D7D7D;
+	font-family: 'Inter';
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 58px;
+	line-height: 135.187%; /* 21.63px */
+}
+.block-welcome-card-sub-title-two {
+	color: #7D7D7D;
+	font-family: 'Inter';
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 58px;
+	line-height: 135.187%; /* 21.63px */
+}
+
+.block-welcome-whitecollar a {
+	padding: 21px 27px 22px 27px;
+	background-color: #6B77E5;
+	color: #FFF;
+	text-align: center;
+	font-family: 'Inter';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: capitalize;
+}
