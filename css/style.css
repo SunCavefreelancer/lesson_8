@@ -1,0 +1,189 @@
+/* =======Підключення шрифтів вручну======= */
+@import url("fonts.css");
+
+/*=======Скидання стилів=======*/
+@import url("reset.css");
+
+
+
+
+/* ==============Основні Стилі============== */
+body {
+	padding: 0px 20px;
+	/*font-family: 'Inter';*/
+	font-style: 18px;
+}
+
+/* ================maket 'Clothing for Women Online in India'==================== */
+/*body {}*/
+
+/* =======================maket Clothing for Women Online in India============================= */
+.block-clothing-for-women-india {
+	max-width: 1240px;
+	margin: 0 auto;
+	padding: 80px 0px 80px 0px;
+}
+
+.block-clothing-for-women-india-text {
+	padding: 0px 21px;
+}
+
+.block-clothing-for-women-india h2 {
+	display: inline-block;
+	width: 552px;
+	color: #3C4242;
+	font-family: 'Core Sans C-600';
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 33.5px;
+	/* 119.643% */
+	letter-spacing: 0.56px;
+	margin-bottom: 30px;
+}
+
+.block-clothing-for-women-india h3 {
+	width: 1153px;
+	color: #807D7E;
+	font-family: 'Core Sans C-600';
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 33.5px;
+	/* 167.5% */
+	letter-spacing: 0.4px;
+	margin-bottom: 25px;
+}
+
+.block-clothing-for-women-india-span {
+	display: inline-block;
+	width: 6px;
+	height: 28px;
+	background-color: #8A33FD;
+	border-radius: 10px;
+	margin-right: 15px;
+}
+
+.block-clothing-for-women-india-title {
+	width: 1043px;
+	color: #807D7E;
+	font-family: 'Core Sans C-600';
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 33.5px;
+	/* 167.5% */
+	letter-spacing: 0.4px;
+	margin-bottom: 25px;
+}
+
+.block-clothing-for-women-india-sub-title {
+	width: 1043px;
+	color: #807D7E;
+	font-family: 'Causten';
+	font-size: 20px;
+	line-height: 33.5px;
+	/* 167.5% */
+	letter-spacing: 0.4px;
+	margin-bottom: 20px;
+}
+
+.block-clothing-for-women-india-sub-title span {
+	font-weight: 600;
+}
+
+.block-clothing-for-women-india-sub-title-two {
+	width: 1217px;
+	color: #807D7E;
+	font-family: 'Causten';
+	font-size: 20px;
+	line-height: 33.5px;
+	/* 167.5% */
+	letter-spacing: 0.4px;
+	margin-bottom: 20px;
+}
+
+.block-clothing-for-women-india-sub-title-tree {
+	width: 1219px;
+	color: #807D7E;
+	font-family: 'Causten';
+	font-size: 20px;
+	line-height: 33.5px;
+	/* 167.5% */
+	letter-spacing: 0.4px;
+	margin-bottom: 20px;
+
+}
+
+.block-clothing-for-women-india a {
+	width: 168px;
+	color: #807D7E;
+	font-family: 'Core Sans C-600';
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 33.5px;
+	/* 167.5% */
+	letter-spacing: 0.4px;
+}
+
+
+/* =====================block-euphoria====================== */
+.block-euphoria {
+	max-width: 1240px;
+	margin: 0 auto;
+	font-size: 0;
+	padding: 0px 5px;
+}
+
+.block-euphoria-left {	
+	background: url(img-2/Rectangle\ 01.png) 0 0 no-repeat;
+	width: 614px;
+	height: 640px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.block-euphoria-left-content {
+	padding: 183px 74px 174px 74px;
+}
+.block-euphoria-left-content h2 {
+	width: 466px;
+	color: #fff;
+	font-family: 'Core Sans C-800';
+	font-size: 34px;
+	font-weight: 800;
+	line-height: 50px; /* 147.059% */
+	letter-spacing: 0.208px;
+	margin-bottom: 30px;
+}
+.block-euphoria-left-content p {
+	width: 451px;
+	color: #fff;
+	font-family: 'Causten';
+	font-size: 20px;
+	font-weight: 300;
+	line-height: normal;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
+}
+
+.block-euphoria a {
+	color: #3C4242;
+	text-align: center;
+	font-family: 'Causten';
+	font-size: 18px;
+	font-weight: 600;
+	line-height: normal;
+	padding: 12px 44px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	background-color: #fff;
+}
+
+/* -- */
+.block-euphoria-right {
+	width: 614px;
+	height: 640px;
+	background: url(img-2/Rectangle\ 02.png) 0 0 no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	/*border-radius: 8px;*/
+}
