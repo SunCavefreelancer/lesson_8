@@ -241,7 +241,8 @@ body {
 	vertical-align: top;
 	margin-bottom: 24px;
 }
-.block-card-img {
+.block-card-img img{
+	max-width: 100%;
 }
 
 .block-card-title {
