@@ -35,8 +35,7 @@ body {
 	font-family: 'Core Sans C-600';
 	font-size: 28px;
 	font-weight: 600;
-	line-height: 33.5px;
-	/* 119.643% */
+	line-height: 33.5px;/* 119.643% */
 	letter-spacing: 0.56px;
 	margin-bottom: 30px;
 }
@@ -47,8 +46,7 @@ body {
 	font-family: 'Core Sans C-600';
 	font-size: 20px;
 	font-weight: 600;
-	line-height: 33.5px;
-	/* 167.5% */
+	line-height: 33.5px;/* 167.5% */
 	letter-spacing: 0.4px;
 	margin-bottom: 25px;
 }
@@ -68,8 +66,7 @@ body {
 	font-family: 'Core Sans C-600';
 	font-size: 20px;
 	font-weight: 600;
-	line-height: 33.5px;
-	/* 167.5% */
+	line-height: 33.5px;/* 167.5% */
 	letter-spacing: 0.4px;
 	margin-bottom: 25px;
 }
@@ -77,10 +74,10 @@ body {
 .block-clothing-for-women-india-sub-title {
 	width: 1043px;
 	color: #807D7E;
-	font-family: 'Causten';
+	font-family: 'Causten-Light';
+	font-weight: 300;
 	font-size: 20px;
-	line-height: 33.5px;
-	/* 167.5% */
+	line-height: 33.5px;/* 167.5% */
 	letter-spacing: 0.4px;
 	margin-bottom: 20px;
 }
@@ -92,10 +89,10 @@ body {
 .block-clothing-for-women-india-sub-title-two {
 	width: 1217px;
 	color: #807D7E;
-	font-family: 'Causten';
+	font-family: 'Causten-Light';
+	font-weight: 300;
 	font-size: 20px;
-	line-height: 33.5px;
-	/* 167.5% */
+	line-height: 33.5px;/* 167.5% */
 	letter-spacing: 0.4px;
 	margin-bottom: 20px;
 }
@@ -103,7 +100,8 @@ body {
 .block-clothing-for-women-india-sub-title-tree {
 	width: 1219px;
 	color: #807D7E;
-	font-family: 'Causten';
+	font-family: 'Causten-Light';
+	font-weight: 300;
 	font-size: 20px;
 	line-height: 33.5px;
 	/* 167.5% */
@@ -156,7 +154,7 @@ body {
 .block-euphoria-left-content p {
 	width: 451px;
 	color: #fff;
-	font-family: 'Causten';
+	font-family: 'Causten-Light';
 	font-size: 20px;
 	font-weight: 300;
 	line-height: normal;
@@ -185,5 +183,99 @@ body {
 	background: url(img-2/Rectangle\ 02.png) 0 0 no-repeat;
 	display: inline-block;
 	vertical-align: middle;
-	/*border-radius: 8px;*/
 }
+
+
+/* ============================================= */
+.block-latest-projects {
+	max-width: 1220px;
+	padding: 100px 0px;
+	margin: 0 auto;
+	border: 1px solid #3C4242;
+}
+.block-latest-projects-text {
+	text-align: center;
+	margin-bottom: 47px;
+}
+.block-latest-projects-text h5{
+	color: #37393F;
+	font-family: 'Inter';
+	font-size: 18px;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.block-latest-projects-span {
+	width: 12px;
+	height: 12px;
+	background-color: #40DDB6;
+	display: inline-block;
+	margin-right: 6px;
+
+}
+.block-latest-projects-text h2 {
+	color: #37393F;
+	font-family: 'Poppins';
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 121%; /* 48.4px */
+	margin-bottom: 14px;
+}
+.block-latest-projects-sub-title {
+	width: 854px;
+	color: #7D7D7D;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Inter';
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 146.187%; /* 26.314px */
+	margin-bottom: 47;
+}
+.block-cards {
+	max-width: 1220px;
+	margin: 0 auto;
+}
+.block-card {
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 24px;
+}
+.block-card-img {
+}
+
+.block-card-title {
+	color: #37393F;
+	font-family: 'Poppins';
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 127%; /* 25.4px */
+	margin-bottom: 10px;
+}
+.block-card-first {
+	background-image: url(img-2/Photo01.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 656px 985px;
+
+	margin-right: 34px;
+}
+.block-card-two {
+	margin-right: 34px;
+}
+.block-card-data {
+	color: #7D7D7D;
+	font-family: 'Inter';
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 146.187%; /* 20.466px */
+	background-image: url(img-2/Group\ 22.svg) no-repeat;
+}
+.block-card-img-two {
+	background-image: url(img-2/Photo02.png);
+	background-repeat: no-repeat;
+}
+.block-card-img-tree {
+	background-image: url(img-2/Photo03.png);
+	background-repeat: no-repeat;
+} 
