@@ -236,17 +236,18 @@ body {
 
 .row-a {
 	margin-bottom: 58px;
+	display: inline-block;
+	font-size: 0;
 }
 .block-card {
 	display: inline-block;
-	vertical-align: top;
 }
 .block-card-img-first {
 	background-image: url(img-2/Photo01.png);
 	background-repeat: no-repeat;
 	width: 384px;
 	height: 501px;
-	margin-right: 28px;
+	margin-right: 34px;
 	margin-bottom: 24px;
 }
 .block-card-img-two {
@@ -255,7 +256,7 @@ body {
 	width: 384px;
 	height: 501px;
 	margin-bottom: 24px;
-	margin-right: 28px;
+	margin-right: 34px;
 }
 .block-card-img-tree {
 	background-image: url(img-2/Photo03.png);
@@ -291,7 +292,7 @@ body {
 	background-repeat: no-repeat;
 	width: 384px;
 	height: 501px;
-	margin-right: 28px;
+	margin-right: 34px;
 	margin-bottom: 24px;
 }
 .block-card-img-five {
@@ -300,7 +301,7 @@ body {
 	width: 384px;
 	height: 501px;
 	margin-bottom: 24px;
-	margin-right: 28px;
+	margin-right: 34px;
 }
 .block-card-img-six {
 	background-image: url(img-2/Photo06.png);
@@ -309,7 +310,10 @@ body {
 	height: 501px;
 	margin-bottom: 24px;
 }
-
+.row-b {
+	display: inline-block;
+	font-size: 0;
+}
 
 
 /* ======================= maket 4 Welcome Whitecollar ============================ */
