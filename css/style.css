@@ -9,18 +9,52 @@
 
 /* ==============Основні Стилі============== */
 body {
-	padding: 0px 20px;
-	/*font-family: 'Inter';*/
 	font-style: 18px;
 }
 
 /* ================maket 'Clothing for Women Online in India'==================== */
-/*body {}*/
+/*header*/
+.header {
+	width: 100%;
+	height: 100%;
+	background-image: url(img-2/Yest-li-zvuk-v-kosmose-.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	box-shadow: 10px 20px 30px #7D7D7D;
+	background-attachment: fixed;
+}
+header  {
+	display: inline-block;
+	font-size: 0;	
+	margin: 0px auto;
+}
+header ul{
+	max-width: 680px;
+	margin: 100px auto;
+}
+header li {
+	display: inline-block;
+	padding-right: 30px;
+	font-family: 'Core Sans C-800';
+	font-weight: 700;
+}
+.header-link {
+	color: #FFF;
+	font-size: 25px;
+	font-weight: 900;
+	text-align: center;
+	padding: 20px;
+	background-color: hsla(266, 98%, 60%, 0.258);
+	border-radius: 20px;
+	margin-left: 20px;
+}
+
 
 /* =======================maket Clothing for Women Online in India============================= */
 .block-clothing-for-women-india {
 	max-width: 1240px;
 	margin: 0 auto;
+	padding: 0px 20px;
 	padding: 80px 0px 80px 0px;
 }
 
@@ -391,9 +425,7 @@ body {
 	display: inline-block;
 	font-size: 0;
 }
-.block-welcome-card {
 
-}
 .block-welcome-card-first {
 	padding: 31px 32px 32px 32px;
 	border: 1px solid #E3E3E3;
@@ -440,6 +472,7 @@ body {
 	line-height: 135.187%; /* 21.63px */
 }
 
+/* ---a--- */
 .block-welcome-whitecollar a {
 	padding: 21px 27px 22px 27px;
 	background-color: #6B77E5;
