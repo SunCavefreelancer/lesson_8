@@ -275,11 +275,11 @@ header li {
 }
 .block-card {
 	display: inline-block;
+	width: 384px;
 }
 .block-card-img-first {
 	background-image: url(img-2/Photo01.png);
 	background-repeat: no-repeat;
-	width: 384px;
 	height: 501px;
 	margin-right: 34px;
 	margin-bottom: 24px;
@@ -287,7 +287,7 @@ header li {
 .block-card-img-two {
 	background-image: url(img-2/Photo02.png);
 	background-repeat: no-repeat;
-	width: 384px;
+
 	height: 501px;
 	margin-bottom: 24px;
 	margin-right: 34px;
@@ -295,7 +295,6 @@ header li {
 .block-card-img-tree {
 	background-image: url(img-2/Photo03.png);
 	background-repeat: no-repeat;
-	width: 384px;
 	height: 501px;
 	margin-bottom: 24px;
 }
@@ -324,7 +323,6 @@ header li {
 .block-card-img-four {
 	background-image: url(img-2/Photo04.png);
 	background-repeat: no-repeat;
-	width: 384px;
 	height: 501px;
 	margin-right: 34px;
 	margin-bottom: 24px;
@@ -332,7 +330,6 @@ header li {
 .block-card-img-five {
 	background-image: url(img-2/Photo05.png);
 	background-repeat: no-repeat;
-	width: 384px;
 	height: 501px;
 	margin-bottom: 24px;
 	margin-right: 34px;
@@ -340,7 +337,6 @@ header li {
 .block-card-img-six {
 	background-image: url(img-2/Photo06.png);
 	background-repeat: no-repeat;
-	width: 384px;
 	height: 501px;
 	margin-bottom: 24px;
 }
@@ -484,4 +480,35 @@ header li {
 	font-weight: 600;
 	line-height: normal;
 	text-transform: capitalize;
+}
+
+/* ====================footeor================= */
+footer {
+	width: 100%;
+	background-image: url(img-2/Yest-li-zvuk-v-kosmose-.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+
+	display: inline-block;
+	font-size: 0;	
+	margin: 0px auto;
+}
+footer ul{
+	max-width: 680px;
+	margin: 100px auto;
+}
+footer li {
+	display: inline-block;
+	padding-right: 30px;
+	font-family: 'Core Sans C-800';
+	font-weight: 700;
+}
+.footer-link {
+	color: #FFF;
+	font-size: 25px;
+	font-weight: 900;
+	padding: 20px;
+	border:1px dashed #8A33FD;
+	border-radius: 20px;
+	margin-left: 20px;
 }
