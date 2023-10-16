@@ -520,11 +520,8 @@ header li {
 
 /* ====================footeor================= */
 
-footer {
-	margin: 0 auto;
-}
 footer ul{
-	max-width: 1240px;
+	max-width: 622px;
 	margin: 0px auto;
 	padding: 20px 0px 30px 0px;
 }
