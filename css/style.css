@@ -10,51 +10,51 @@
 /* ==============Основні Стилі============== */
 body {
 	font-style: 18px;
+	background: url(../img/butterfly.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-attachment: fixed;  
+	background-size: auto 200px;
 }
 
 /* ================maket 'Clothing for Women Online in India'==================== */
 /*header*/
 .header {
-	width: 100%;
-	height: 100%;
-	background-image: url(img-2/Yest-li-zvuk-v-kosmose-.jpg);
-	background-repeat: no-repeat;
-	background-position: top left;
-	box-shadow: 10px 20px 30px #7D7D7D;
-	background-attachment: fixed;
-}
-header  {
-	display: inline-block;
-	font-size: 0;	
-	margin: 0px auto;
+	margin: 0 auto;
 }
 header ul{
-	max-width: 680px;
-	margin: 100px auto;
+	max-width: 1240px;
+	margin: 0px auto;
+	padding: 20px 0px 0px 0px;
+}
+header ul > *:not(:last-child) {
+	margin-bottom: 20px;
 }
 header li {
-	display: inline-block;
-	padding-right: 30px;
+	margin-right: 20px;
 	font-family: 'Core Sans C-800';
 	font-weight: 700;
+
 }
 .header-link {
-	color: #FFF;
-	font-size: 25px;
-	font-weight: 900;
-	text-align: center;
-	padding: 20px;
-	background-color: hsla(266, 98%, 60%, 0.258);
-	border-radius: 20px;
+	color: #7c03c8;
+	font-size: 20px;
+	font-weight: 800;
 	margin-left: 20px;
 }
 
+.wrapper {
+	padding: 0px 20px;
+}
 
 /* =======================maket Clothing for Women Online in India============================= */
+.block-clothing-for-women-india > *:last-child {
+	margin-bottom: 0;
+}
 .block-clothing-for-women-india {
 	max-width: 1240px;
 	margin: 0 auto;
-	padding: 0px 20px;
+	padding: 20px 20px;
 	padding: 80px 0px 80px 0px;
 }
 
@@ -64,7 +64,7 @@ header li {
 
 .block-clothing-for-women-india h2 {
 	display: inline-block;
-	width: 552px;
+	max-width: 552px;
 	color: #3C4242;
 	font-family: 'Core Sans C-600';
 	font-size: 28px;
@@ -75,7 +75,7 @@ header li {
 }
 
 .block-clothing-for-women-india h3 {
-	width: 1153px;
+	max-width: 1153px;
 	color: #807D7E;
 	font-family: 'Core Sans C-600';
 	font-size: 20px;
@@ -85,7 +85,7 @@ header li {
 	margin-bottom: 25px;
 }
 
-.block-clothing-for-women-india-span {
+.line {
 	display: inline-block;
 	width: 6px;
 	height: 28px;
@@ -95,7 +95,7 @@ header li {
 }
 
 .block-clothing-for-women-india-title {
-	width: 1043px;
+	max-width: 1043px;
 	color: #807D7E;
 	font-family: 'Core Sans C-600';
 	font-size: 20px;
@@ -106,7 +106,7 @@ header li {
 }
 
 .block-clothing-for-women-india-sub-title {
-	width: 1043px;
+	max-width: 1043px;
 	color: #807D7E;
 	font-family: 'Causten-Light';
 	font-weight: 300;
@@ -121,62 +121,65 @@ header li {
 }
 
 .block-clothing-for-women-india-sub-title-two {
-	width: 1217px;
-	color: #807D7E;
-	font-family: 'Causten-Light';
-	font-weight: 300;
-	font-size: 20px;
-	line-height: 33.5px;/* 167.5% */
-	letter-spacing: 0.4px;
-	margin-bottom: 20px;
-}
-
-.block-clothing-for-women-india-sub-title-tree {
-	width: 1219px;
+	max-width: 1217px;
 	color: #807D7E;
 	font-family: 'Causten-Light';
 	font-weight: 300;
 	font-size: 20px;
 	line-height: 33.5px;
-	/* 167.5% */
+	letter-spacing: 0.4px;
+	margin-bottom: 20px;
+}
+
+.block-clothing-for-women-india-sub-title-tree {
+	max-width: 1219px;
+	color: #807D7E;
+	font-family: 'Causten-Light';
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 33.5px;
 	letter-spacing: 0.4px;
 	margin-bottom: 20px;
 
 }
 
 .block-clothing-for-women-india a {
-	width: 168px;
+	max-width: 168px;
 	color: #807D7E;
 	font-family: 'Core Sans C-600';
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 33.5px;
-	/* 167.5% */
 	letter-spacing: 0.4px;
+	margin-bottom: 20px;
 }
 
 
 /* =====================block-euphoria====================== */
+.block-euphoria-left-content > *:last-child {
+	margin-bottom: 0;
+}
 .block-euphoria {
 	max-width: 1240px;
 	margin: 0 auto;
 	font-size: 0;
-	padding: 0px 5px;
+	padding: 50px 5px;
 }
 
 .block-euphoria-left {	
-	background: url(img-2/Rectangle\ 01.png) 0 0 no-repeat;
+	background: url(../img/Rectangle\ 01.png) no-repeat;
+	background-position: 0 0;
+	background-size: cover;
 	width: 614px;
-	height: 640px;
+	height: 639px;
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 }
 
 .block-euphoria-left-content {
 	padding: 183px 74px 174px 74px;
 }
 .block-euphoria-left-content h2 {
-	width: 466px;
 	color: #fff;
 	font-family: 'Core Sans C-800';
 	font-size: 34px;
@@ -186,12 +189,10 @@ header li {
 	margin-bottom: 30px;
 }
 .block-euphoria-left-content p {
-	width: 451px;
 	color: #fff;
 	font-family: 'Causten-Light';
 	font-size: 20px;
 	font-weight: 300;
-	line-height: normal;
 	letter-spacing: 1px;
 	margin-bottom: 50px;
 }
@@ -202,155 +203,190 @@ header li {
 	font-family: 'Causten';
 	font-size: 18px;
 	font-weight: 600;
-	line-height: normal;
+	line-height: 22px;
 	padding: 12px 44px;
 	justify-content: center;
 	align-items: center;
 	border-radius: 8px;
 	background-color: #fff;
+	margin-bottom: 20px;
+	display: inline-block;
 }
 
 /* -- */
 .block-euphoria-right {
 	width: 614px;
 	height: 640px;
-	background: url(img-2/Rectangle\ 02.png) 0 0 no-repeat;
+	background: url(../img/Rectangle\ 02.png) no-repeat;
+	background-position: 0 0;
+	background-size: cover;
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
+	border-radius: 8px;
 }
 
 
 
-
-/* =====================block-latest-projects======================== */
-.block-latest-projects {
+/* ================test=====page-3-latest================ */
+.page-3-latest {
+	padding: 150px 0px 150px 0px;
 	max-width: 1220px;
-	padding: 100px 0px;
 	margin: 0 auto;
 }
-.block-latest-projects-text {
+
+.box-top > *:last-child {
+	margin-bottom: 0px;
+}
+.box-top span {
+	width: 12px;
+	height: 12px;
+	background-color: #40DDB6;
+	margin-right: 6px;
+	display: inline-block;
+}
+.box-top {
+	max-width: 852px;
+	margin: 0 auto;
 	text-align: center;
 	margin-bottom: 47px;
 }
-.block-latest-projects-text h5{
+.box-top h5 {
 	color: #37393F;
 	font-family: 'Inter';
 	font-size: 18px;
 	font-weight: 500;
-	line-height: normal;
+	margin-bottom: 14px;
 }
-
-.block-latest-projects-span {
-	width: 12px;
-	height: 12px;
-	background-color: #40DDB6;
-	display: inline-block;
-	margin-right: 6px;
-
-}
-.block-latest-projects-text h2 {
+.box-top-title {
 	color: #37393F;
+	text-align: center;
 	font-family: 'Poppins';
 	font-size: 40px;
 	font-weight: 700;
-	line-height: 121%; /* 48.4px */
+	line-height: 1.21;
 	margin-bottom: 14px;
 }
-.block-latest-projects-sub-title {
-	width: 854px;
+.box-top-sub-title {
 	color: #7D7D7D;
 	text-align: center;
-	margin: 0 auto;
 	font-family: 'Inter';
 	font-size: 18px;
-	font-weight: 400;
-	line-height: 146.187%; /* 26.314px */
-	margin-bottom: 47;
+	line-height: 146.187%;
+	margin-bottom: 14px;
 }
 
-.row-a {
+/* ---columns---- */
+.box-down-row-1 {
 	margin-bottom: 58px;
+}
+.box-down-columns {
 	display: inline-block;
 	font-size: 0;
 }
-.block-card {
+.box-down-column:not(:last-child) {
+	margin-right: 34px;
+}
+.box-down-column > *:last-child { /* якщо зміниться контент місцями - обнуляємо */
+	margin-bottom: 0;
+}
+.box-down-column {
+	max-width: 384px;
 	display: inline-block;
+}
+.box-down-column-img {
+	content: "";
+	display: inline-block;
+	margin-bottom: 24px;
+}
+.img-1 {
+	background: url(../img/Photo01.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	width: 384px;
-}
-.block-card-img-first {
-	background-image: url(img-2/Photo01.png);
-	background-repeat: no-repeat;
 	height: 501px;
-	margin-right: 34px;
-	margin-bottom: 24px;
 }
-.block-card-img-two {
-	background-image: url(img-2/Photo02.png);
+.img-2 {
+	background: url(../img/Photo02.png);
+	background-position: 0 0;
 	background-repeat: no-repeat;
+	background-size: cover;
+	width: 384px;
+	height: 501px;
+}
+.img-3 {
+	background: url(../img/Photo03.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 384px;
+	height: 501px;
+}
 
-	height: 501px;
-	margin-bottom: 24px;
-	margin-right: 34px;
-}
-.block-card-img-tree {
-	background-image: url(img-2/Photo03.png);
+.img-4 {
+	background: url(../img/Photo04.png);
+	background-position: 0 0;
 	background-repeat: no-repeat;
+	background-size: cover;
+	width: 384px;
 	height: 501px;
-	margin-bottom: 24px;
 }
-.block-card-title {
+.img-5 {
+	background: url(../img/Photo05.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 384px;
+	height: 501px;
+}
+.img-6 {
+	background: url(../img/Photo06.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 384px;
+	height: 501px;
+}
+
+.box-down-column-title {
 	color: #37393F;
 	font-family: 'Poppins';
 	font-size: 20px;
 	font-weight: 600;
-	line-height: 127%; /* 25.4px */
+	line-height: 1,27%;
 	margin-bottom: 10px;
 }
-
-.block-card-data {
+.box-down-column-data span {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 22px;
+	height: 22px;
+	margin-right: 3.5px;
+	background: url(../img/logo.svg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.box-down-column-data {
 	color: #7D7D7D;
 	font-family: 'Inter';
 	font-size: 14px;
-	font-weight: 400;
-	line-height: 146.187%; /* 20.466px */
-	background-image: url(img-2/logo.svg);
-	background-repeat: no-repeat;
-	background-size: 22px 22px;
-	background-position: 0 0;
-	padding-left: 25.5px;
+	line-height: 146.187%;
+	margin-bottom: 16px;  /* якщо зміниться контент місцями */
 }
- 
-.block-card-img-four {
-	background-image: url(img-2/Photo04.png);
-	background-repeat: no-repeat;
-	height: 501px;
-	margin-right: 34px;
-	margin-bottom: 24px;
-}
-.block-card-img-five {
-	background-image: url(img-2/Photo05.png);
-	background-repeat: no-repeat;
-	height: 501px;
-	margin-bottom: 24px;
-	margin-right: 34px;
-}
-.block-card-img-six {
-	background-image: url(img-2/Photo06.png);
-	background-repeat: no-repeat;
-	height: 501px;
-	margin-bottom: 24px;
-}
-.row-b {
-	display: inline-block;
-	font-size: 0;
-}
+/* =====================block-latest-projects======================== */
+
+
 
 
 /* ======================= maket 4 Welcome Whitecollar ============================ */
 .block-welcome-whitecollar {
 	max-width: 622px;
 	margin: 0 auto;
-	padding: 0px 0px 80px 0px;
+	padding: 0px 0px 50px 0px;
+}
+.block-welcome-whitecollar > *:last-child {
+	margin-bottom: 0;
 }
 .block-welcome-whitecollar span {
 	width: 12px;
@@ -384,7 +420,7 @@ header li {
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 146.187%; /* 26.314px */
+	line-height: 146.187%;
 	margin-bottom: 15px;
 }
 .block-welcome-whitecollar-sub-text {
@@ -393,7 +429,7 @@ header li {
 	font-family: 'Inter';
 	font-size: 18px;
 	font-weight: 400;
-	line-height: 146.187%; /* 26.314px */
+	line-height: 146.187%;
 	margin-bottom: 20px;
 }
 .block-welcome-list {
@@ -405,7 +441,7 @@ header li {
 	font-size: 20px;
 	font-weight: 400;
 	line-height: normal;
-	background-image: url(img-2/Vector01.svg);
+	background-image: url(../img/Vector01.svg);
 	background-repeat: no-repeat;
 	background-size: 27px 27px;
 	/*background-position: 0 3px;*/
@@ -444,7 +480,7 @@ header li {
 	font-family: 'Poppins';
 	font-size: 20px;
 	font-weight: 600;
-	background-image: url(img-2/Icon01.svg);
+	background-image: url(../img/Icon01.svg);
 	background-repeat: no-repeat;
 	background-size: 39px 38px;
 	padding-left: 58px;
@@ -457,7 +493,7 @@ header li {
 	font-size: 16px;
 	font-weight: 400;
 	padding-left: 58px;
-	line-height: 135.187%; /* 21.63px */
+	line-height: 135.187%;
 }
 .block-welcome-card-sub-title-two {
 	color: #7D7D7D;
@@ -465,50 +501,47 @@ header li {
 	font-size: 16px;
 	font-weight: 400;
 	padding-left: 58px;
-	line-height: 135.187%; /* 21.63px */
+	line-height: 135.187%;
 }
 
 /* ---a--- */
-.block-welcome-whitecollar a {
+.button {
 	padding: 21px 27px 22px 27px;
 	background-color: #6B77E5;
 	color: #FFF;
 	text-align: center;
 	font-family: 'Inter';
 	font-size: 18px;
-	font-style: normal;
 	font-weight: 600;
-	line-height: normal;
 	text-transform: capitalize;
+	display: inline-block;
+	margin-bottom: 20px;
 }
 
 /* ====================footeor================= */
-footer {
-	width: 100%;
-	background-image: url(img-2/Yest-li-zvuk-v-kosmose-.jpg);
-	background-repeat: no-repeat;
-	background-position: 0 0;
 
-	display: inline-block;
-	font-size: 0;	
-	margin: 0px auto;
+footer {
+	margin: 0 auto;
 }
 footer ul{
-	max-width: 680px;
-	margin: 100px auto;
+	max-width: 1240px;
+	margin: 0px auto;
+	padding: 20px 0px 30px 0px;
+}
+footer ul > *:not(:last-child) {
+	margin-bottom: 20px;
 }
 footer li {
-	display: inline-block;
-	padding-right: 30px;
+	margin-right: 20px;
 	font-family: 'Core Sans C-800';
 	font-weight: 700;
+
 }
 .footer-link {
-	color: #FFF;
-	font-size: 25px;
-	font-weight: 900;
-	padding: 20px;
-	border:1px dashed #8A33FD;
-	border-radius: 20px;
+	color: #6c67d6;
+	font-size: 20px;
+	font-weight: 800;
 	margin-left: 20px;
 }
+
+
