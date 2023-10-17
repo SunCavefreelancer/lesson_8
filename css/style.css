@@ -43,7 +43,20 @@ header li {
 	text-decoration: underline;
 	color: #40DDB6;
 }
-
+.header-link::after {
+	background-image: url(../img/pin.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	content: "";
+	display: inline-block;
+	margin-left: 15px;
+}
+.header-link:hover::after {
+	cursor: pointer;
+	border: 1px dashed #40DDB6;
+}
 /* ------------------------------------ */
 .wrapper {
 	padding: 0px 20px;
@@ -547,4 +560,17 @@ footer li {
 	color: #40DDB6;
 }
 
-
+.footer-link::after {
+	background-image: url(../img/hand.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	content: "";
+	display: inline-block;
+	margin-left: 15px;
+}
+.footer-link:hover::after {
+	border: 1px dashed #40DDB6;
+	cursor: pointer;
+}
