@@ -12,16 +12,13 @@ body {
 	font-style: 18px;
 	background: url(../img/butterfly.png);
 	background-repeat: no-repeat;
-	background-position: top right;
+	background-position: right top;
 	background-attachment: fixed;  
-	background-size: auto 200px;
+	background-size: auto 50%;
 }
 
 /* ================maket 'Clothing for Women Online in India'==================== */
 /*header*/
-.header {
-	margin: 0 auto;
-}
 header ul{
 	max-width: 1240px;
 	margin: 0px auto;
