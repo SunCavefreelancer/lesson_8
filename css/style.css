@@ -19,6 +19,7 @@ body {
 
 /* ================maket 'Clothing for Women Online in India'==================== */
 /*header*/
+
 header ul{
 	max-width: 1240px;
 	margin: 0px auto;
@@ -532,7 +533,10 @@ header li {
 	display: inline-block;
 	margin-bottom: 20px;
 }
-
+.button:hover {
+	background-color: #40DDB6;
+	cursor: pointer;
+}
 /* ====================footeor================= */
 
 footer ul{
