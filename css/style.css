@@ -187,8 +187,11 @@ header li {
 	margin: 0 auto;
 	font-size: 0;
 	padding: 50px 5px;
+	overflow: hidden; /* передбачити зміну контенту у разі картинок... */
 }
-
+/* .block-euphoria-body {
+	border-radius: 8px;
+} */
 .block-euphoria-left {	
 	background: url(../img/Rectangle\ 01.png) no-repeat;
 	background-position: 0 0;
@@ -197,6 +200,7 @@ header li {
 	height: 639px;
 	display: inline-block;
 	vertical-align: top;
+	border-radius:  8px 0 0 8px ;
 }
 
 .block-euphoria-left-content {
@@ -245,7 +249,7 @@ header li {
 	background-size: cover;
 	display: inline-block;
 	vertical-align: top;
-	border-radius: 8px;
+	border-radius: 0 8px 8px 0; /* border тільки справа */
 }
 
 
